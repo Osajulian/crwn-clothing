@@ -1,12 +1,12 @@
 import React from 'react';
-import Homepage from './homepage-component';
+
 import './App.css';
+import Directory from './components/directory/directory.component';
 
 function App() {
-  debugger
   return (
     <div>
-    <Homepage />
+    <Directory />
     </div>
   );
 }
